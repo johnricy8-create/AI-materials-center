@@ -120,10 +120,14 @@ npm run build
 
 - Docker Desktop：`D:\docker`
 - MySQL 8.4.13：`D:\mysql`，服务 `MySQL84`，`127.0.0.1:3306`
+- Ollama 0.40.11：`D:\ollama`，模型目录 `D:\ollama\models`，`127.0.0.1:11434`
 - 本机 Nginx：`D:\nginx`，网关 `http://127.0.0.1:8081`
 
 MySQL 安装说明见 `docs/MySQL安装与验证.md`。项目当前仍使用 SQLite，
 MySQL 为后续迁移预留，不影响现有运行方式。
+
+Ollama 安装与验证说明见 `docs/Ollama安装与验证.md`。当前测试模型为
+`qwen2.5:0.5b`，服务按需手动启动，默认只监听本机。
 
 ## Docker Compose
 
