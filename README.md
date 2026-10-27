@@ -116,6 +116,15 @@ cd demo
 npm run build
 ```
 
+## 本机基础设施
+
+- Docker Desktop：`D:\docker`
+- MySQL 8.4.13：`D:\mysql`，服务 `MySQL84`，`127.0.0.1:3306`
+- 本机 Nginx：`D:\nginx`，网关 `http://127.0.0.1:8081`
+
+MySQL 安装说明见 `docs/MySQL安装与验证.md`。项目当前仍使用 SQLite，
+MySQL 为后续迁移预留，不影响现有运行方式。
+
 ## Docker Compose
 
 ```bash
