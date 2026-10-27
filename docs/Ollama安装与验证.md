@@ -50,6 +50,23 @@ ollama list
 
 如果旧终端找不到 `ollama`，重新打开终端即可。
 
+## 桌面快捷方式
+
+已创建桌面快捷方式：
+
+```text
+C:\Users\Administrator\Desktop\Ollama.lnk
+```
+
+双击后会执行 `D:\ollama\ollama-chat.ps1`：
+
+1. 检查 Ollama 服务是否运行；
+2. 如果未运行，在后台启动 `ollama serve`；
+3. 等待 API 就绪；
+4. 进入 `qwen2.5:0.5b` 交互式对话。
+
+快捷方式使用 PowerShell 启动，不需要管理员权限。
+
 ## 启动服务
 
 如果 11434 端口尚未监听：
