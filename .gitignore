@@ -1,0 +1,37 @@
+# dependencies
+node_modules/
+.pnpm-store/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# local backend data
+backend/data/
+backend/.venv/
+
+# builds
+dist/
+build/
+
+# local env & secrets
+.env
+.env.*
+!.env.example
+
+# local data
+storage/
+*.db
+*.sqlite
+*.sqlite3
+
+# editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# logs
+*.log

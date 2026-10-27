@@ -1,0 +1,26 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    env_file:
+      - ./backend/.env
+    environment:
+      DATABASE_URL: sqlite+aiosqlite:////data/asset_hub.db
+      STORAGE_DIR: /storage
+    volumes:
+      - ./backend/data:/data
+      - ./storage:/storage
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
+  web:
+    build:
+      context: ./demo
+      args:
+        VITE_API_BASE: /api/v1
+    depends_on:
+      - backend
+    ports:
+      - "8080:80"
+    restart: unless-stopped
