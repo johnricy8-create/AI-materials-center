@@ -1,5 +1,9 @@
 # AI 素材中心（AI Asset Hub）
 
+[![CI](https://github.com/johnricy8-create/AI-materials-center/actions/workflows/ci.yml/badge.svg)](https://github.com/johnricy8-create/AI-materials-center/actions/workflows/ci.yml)
+
+**GitHub**：https://github.com/johnricy8-create/AI-materials-center
+
 面向电商运营、内容创作者和企业运营的 AI 素材管理平台：上传素材 → AI 理解 → 自然语言检索 → Agent 生成文案。
 
 ## 当前状态

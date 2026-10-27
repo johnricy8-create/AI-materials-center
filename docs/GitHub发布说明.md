@@ -2,7 +2,13 @@
 
 ## 当前状态
 
-本地项目已完成，等待 GitHub 仓库链接后推送。
+已推送到：
+
+```text
+https://github.com/johnricy8-create/AI-materials-center
+```
+
+分支：`main`
 
 ## 发布前检查
 
